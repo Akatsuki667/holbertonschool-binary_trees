@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-
 /**
  * main - Entry point
  *
