@@ -17,3 +17,7 @@ Write a function that inserts a node as the left-child of another node
 Write a function that inserts a node as the right-child of another node
 - Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
 - If parent already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.
+
+### 3-binary_tree_delete.c
+Write a function that deletes an entire binary tree.
+- If tree is NULL, do nothing.
