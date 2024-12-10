@@ -36,3 +36,11 @@ Write a function that checks if a given node is a root
 Write a function that goes through a binary tree using pre-order traversal
 - If tree or func is NULL, do nothing
 
+### 7-binary_tree_inorder.c
+Write a function that goes through a binary tree using in-order traversal
+- If tree or func is NULL, do nothing.
+
+### 8-binary_tree_postorder.c
+Write a function that goes through a binary tree using post-order traversal
+- If tree or func is NULL, do nothing.
+

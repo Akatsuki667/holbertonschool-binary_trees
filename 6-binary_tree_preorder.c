@@ -16,5 +16,5 @@ if (tree == NULL || func == NULL) /* vérification paramètres valide */
 return;
 func(tree->n); /* appel fonction sur noeud actuel */
 binary_tree_preorder(tree->left, func); /* parcourir le sous-arbre gauche */
-binary_tree_preorder(tree->right, func); /* paarcourir sous-arbre droit */
+binary_tree_preorder(tree->right, func); /* parcourir sous-arbre droit */
 }
