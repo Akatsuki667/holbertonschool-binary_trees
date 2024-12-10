@@ -19,7 +19,8 @@ new_child->left = parent->left;
 /* assignation noeud gauche parent devient neoud gauche new_child */
 if (parent->left != NULL) /* vérification parent à déjà un enfant */
 parent->left->parent = new_child;
-/* Si parent a déjà enfant, MAJ champ parent pointer vers new_child */
-parent->left = new_child; /* new_child devient enfant de gauche parent */
+/* Si le parent a déjà un enfant à gauche, met à jour son parent */
+parent->left = new_child;
+/* Le nouveau nœud devient l'enfant de gauche du parent */
 return (new_child);
 }
