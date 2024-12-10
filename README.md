@@ -21,3 +21,9 @@ Write a function that inserts a node as the right-child of another node
 ### 3-binary_tree_delete.c
 Write a function that deletes an entire binary tree.
 - If tree is NULL, do nothing.
+
+### 4-binary_tree_is_leaf.c
+Write a function that checks if a node is a leaf
+- Your function must return 1 if node is a leaf, otherwise 0
+- If node is NULL, return 0
+
