@@ -84,6 +84,11 @@ Write a function that finds the sibling of a node.
 - If node is NULL or the parent is NULL, return NULL.
 - If node has no sibling, return NULL.
 
+### 18-binary_tree_uncle.c
+Write a function that finds the uncle of a node.
+- Your function must return a pointer to the uncle node.
+- If node is NULL, return NULL.
+- If node has no uncle, return NULL.
 ## Contributors
 This project was produced as part of the Holberton School program by :
 - [Houmaidi Ibrahim](https://github.com/Braganov)
