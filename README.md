@@ -66,3 +66,6 @@ Write a function that counts the nodes with at least 1 child in a binary tree.
 - If tree is NULL, the function must return 0.
 - A NULL pointer is not a node.
 
+### 14-binary_tree_balance.c
+Write a function that measures the balance factor of a binary tree.
+- If tree is NULL, return 0.
