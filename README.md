@@ -60,3 +60,9 @@ Write a function that measures the size of a binary tree.
 Write a function that counts the leaves in a binary tree.
 - If tree is NULL, the function must return 0.
 - A NULL pointer is not a leaf.
+
+### 13-binary_tree_nodes.c
+Write a function that counts the nodes with at least 1 child in a binary tree.
+- If tree is NULL, the function must return 0.
+- A NULL pointer is not a node.
+
