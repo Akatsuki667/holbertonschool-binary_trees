@@ -77,3 +77,14 @@ Write a function that checks if a binary tree is full.
 ### 16-binary_tree_is_perfect.c
 Write a function that checks if a binary tree is perfect.
 - If tree is NULL, your function must return 0.
+
+### 17-binary_tree_sibling.c
+Write a function that finds the sibling of a node.
+- Your function must return a pointer to the sibling node.
+- If node is NULL or the parent is NULL, return NULL.
+- If node has no sibling, return NULL.
+
+## Contributors
+This project was produced as part of the Holberton School program by :
+- [Houmaidi Ibrahim](https://github.com/Braganov)
+- [Teyant Alexandre](https://github.com/Akatsuki667)
