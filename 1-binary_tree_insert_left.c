@@ -16,6 +16,7 @@ return (NULL);
 new_child->n = value; /* assignation champ n avec paramètre */
 new_child->parent = parent; /* assignation champ parent à paramètres */
 new_child->left = parent->left;
+new_child->right = NULL;
 /* assignation noeud gauche parent devient neoud gauche new_child */
 if (parent->left != NULL) /* vérification parent à déjà un enfant */
 parent->left->parent = new_child;
