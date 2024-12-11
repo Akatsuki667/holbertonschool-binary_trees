@@ -51,3 +51,7 @@ Write a function that measures the height of a binary tree.
 ### 10-binary_tree_depth.c
 Write a function that measures the depth of a node in a binary tree.
 - If tree is NULL, your function must return 0.
+
+### 11-binary_tree_size.c
+Write a function that measures the size of a binary tree.
+- If tree is NULL, the function must return 0.
