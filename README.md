@@ -73,3 +73,7 @@ Write a function that measures the balance factor of a binary tree.
 ### 15-binary_tree_is_full.c
 Write a function that checks if a binary tree is full.
 - If tree is NULL, your function must return 0.
+
+### 16-binary_tree_is_perfect.c
+Write a function that checks if a binary tree is perfect.
+- If tree is NULL, your function must return 0.
