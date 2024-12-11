@@ -44,3 +44,7 @@ Write a function that goes through a binary tree using in-order traversal
 Write a function that goes through a binary tree using post-order traversal
 - If tree or func is NULL, do nothing.
 
+### 9-binary_tree_height.c
+Write a function that measures the height of a binary tree
+- If tree is NULL, your function must return 0
+
