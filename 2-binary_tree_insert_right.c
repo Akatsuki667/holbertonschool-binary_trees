@@ -15,6 +15,7 @@ if (new_child == NULL) /* vérification allocation mémoire */
 return (NULL);
 new_child->n = value; /* assignation champ n avec paramètre */
 new_child->parent = parent; /* assignation champ parent à paramètres */
+new-child->left = NULL;
 new_child->right = parent->right;
 /* assignation noeud droit parent devient neoud droit new_child */
 if (parent->right != NULL) /* vérification parent à déjà un enfant */
